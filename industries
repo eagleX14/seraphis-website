@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Industries & Solutions - Seraphis IT & Data Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold text-blue-600">Seraphis IT & Data Solutions</div>
+      <div class="space-x-6">
+        <a href="index.html" class="hover:text-blue-600">Home</a>
+        <a href="#accounting" class="hover:text-blue-600">Industries</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-24 mt-16">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h1 class="text-4xl font-bold mb-4">Industries We Serve</h1>
+      <p class="text-lg">Tailored Microsoft Azure solutions designed for your industry’s unique challenges.</p>
+    </div>
+  </header>
+
+  <!-- Industry Sections -->
+  <main class="max-w-6xl mx-auto px-6 py-16 space-y-20">
+
+    <!-- Accounting -->
+    <section id="accounting">
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">Accounting & Bookkeeping Firms</h2>
+      <p class="mb-4">We help accounting firms modernize operations and ensure compliance while reducing IT headaches.</p>
+      <h3 class="text-xl font-semibold mb-2">Pain Points</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Data security & compliance with financial regulations</li>
+        <li>Managing sensitive client data securely</li>
+        <li>Need for remote collaboration tools</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Microsoft Solutions</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Microsoft 365 for secure communication</li>
+        <li>Azure Information Protection for data security</li>
+        <li>Teams for remote collaboration</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Packages</h3>
+      <p class="mb-8">Cloud-hosted QuickBooks, Azure security bundle, and compliance reporting dashboards.</p>
+    </section>
+
+    <!-- Legal -->
+    <section id="legal">
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">Legal Practices</h2>
+      <p class="mb-4">We empower legal firms to manage confidential documents securely and collaborate effectively.</p>
+      <h3 class="text-xl font-semibold mb-2">Pain Points</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Handling confidential client data</li>
+        <li>Document management challenges</li>
+        <li>Need for secure remote work solutions</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Microsoft Solutions</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Azure Active Directory for secure access</li>
+        <li>SharePoint & OneDrive for document management</li>
+        <li>Microsoft Teams for collaboration</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Packages</h3>
+      <p class="mb-8">Cloud-based case management platform, secure e-signatures, compliance-ready data storage.</p>
+    </section>
+
+    <!-- Manufacturing -->
+    <section id="manufacturing">
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">Small Manufacturing Companies</h2>
+      <p class="mb-4">We streamline operations and enhance production monitoring with cloud-driven tools.</p>
+      <h3 class="text-xl font-semibold mb-2">Pain Points</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Supply chain visibility</li>
+        <li>Managing legacy on-prem systems</li>
+        <li>Downtime risk affecting production</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Microsoft Solutions</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Azure IoT for production monitoring</li>
+        <li>Dynamics 365 for supply chain management</li>
+        <li>Azure Backup for disaster recovery</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Packages</h3>
+      <p class="mb-8">Factory monitoring dashboards, predictive maintenance tools, Azure hybrid cloud migration.</p>
+    </section>
+
+    <!-- Real Estate -->
+    <section id="real-estate">
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">Real Estate Agencies</h2>
+      <p class="mb-4">We help real estate businesses modernize client interactions and streamline sales processes.</p>
+      <h3 class="text-xl font-semibold mb-2">Pain Points</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Scattered customer data</li>
+        <li>Lack of CRM tools for managing leads</li>
+        <li>Limited mobility for field agents</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Microsoft Solutions</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Dynamics 365 CRM for sales pipeline</li>
+        <li>Azure-hosted property management apps</li>
+        <li>Microsoft 365 mobile productivity tools</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Packages</h3>
+      <p class="mb-8">Real estate CRM setup, mobile-friendly document storage, client communication portal.</p>
+    </section>
+
+    <!-- Retail -->
+    <section id="retail">
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">Retail Businesses</h2>
+      <p class="mb-4">We enable retail businesses to digitize operations and improve customer experiences.</p>
+      <h3 class="text-xl font-semibold mb-2">Pain Points</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Inventory management inefficiencies</li>
+        <li>Need for secure payment systems</li>
+        <li>Customer data analytics</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Microsoft Solutions</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Dynamics 365 for retail ERP</li>
+        <li>Power BI for customer insights</li>
+        <li>Azure App Services for e-commerce</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Packages</h3>
+      <p class="mb-8">Omnichannel retail solutions, cloud-hosted POS, inventory automation tools.</p>
+    </section>
+
+    <!-- Health -->
+    <section id="health">
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">Health Practices</h2>
+      <p class="mb-4">We provide healthcare organizations with secure and compliant IT infrastructure.</p>
+      <h3 class="text-xl font-semibold mb-2">Pain Points</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Patient data security (HIPAA/POPIA compliance)</li>
+        <li>Need for telehealth solutions</li>
+        <li>Legacy EMR/EHR systems integration</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Microsoft Solutions</h3>
+      <ul class="list-disc list-inside mb-4">
+        <li>Microsoft Cloud for Healthcare</li>
+        <li>Teams for telehealth consultations</li>
+        <li>Azure Security & Compliance frameworks</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Packages</h3>
+      <p class="mb-8">Telehealth enablement, secure patient portals, Azure compliance reporting.</p>
+    </section>
+
+  </main>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-blue-50 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">Get in Touch</h2>
+      <p class="mb-6">Ready to transform your business with Microsoft Azure? Contact us today.</p>
+      <a href="mailto:info@seraphisit.com" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 Seraphis IT & Data Solutions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
